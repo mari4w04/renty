@@ -17,7 +17,7 @@
         <h1>Login</h1>
         
         <form id="frmLogin" method="POST">
-            <input name="txtLoginCPR" type="text" placeholder="Your CPR" >
+            <input name="txtLoginEmail" type="text" placeholder="Your Email" >
             <input name="txtLoginPassword" type="password" placeholder="password">
             <button>Login</button>
         </form>
