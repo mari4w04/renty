@@ -1,0 +1,16 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.bikeCategoryContainer{
+    padding: 2%;
+    border: 1px solid lightslategray;
+    margin: 2%;
+}
+
+.bikeCategoryContainer img{
+    width:100%;
+}

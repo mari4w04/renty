@@ -129,6 +129,12 @@
                 "voteId": "5d7f408429f46",
                 "candidateName": "Michael Bennet"
             }
+        },
+        "8888888888": {
+            "firstName": "Charlene",
+            "lastName": "Marteyn",
+            "password": "$2y$10$oON8hlMonrK.rU1JWezq5eiJwbhoVyp8CjApNOmU6d8vRkDwd4aLu",
+            "hasVoted": false
         }
     }
 }
