@@ -13,19 +13,9 @@ if( $jData == null ){
     echo 'Error, check the database';
 }
 
-
-
-
-//echo $jData;
 $jInnerData = $jData->data;
 
 $jCandidatesStatistics = new stdClass();
-// structure:
-// "candidate": {
-//        "candidateName": "",
-//        "votes": 
-// }
-
 
 $aCandidates = array();
 $aCandidates2 = array();
@@ -47,20 +37,10 @@ foreach($aCandidates as $sCandidate){
         if($jVoter->hasVoted == true){
             if($jVoter->vote->candidateName == $sCandidate){
                 $jCandidatesStatistics->$sCandidate->votes++;
-                // echo($jCandidatesStatistics->$sCandidate->votes);
             }
         }
     }
 }
-
-// print_r($aCandidates);
-
-
-// foreach ($jInnerData as $jVoter) {
-//     $jCandidatesStatistics->candidate = $jVoter->vote->candidateName;
-//     echo $jCandidatesStatistics->candidate;
-// }
-
 ?>
 
 <html lang="en">
@@ -97,7 +77,6 @@ foreach($aCandidates as $sCandidate){
 
     <div>
     <div class='card'>
-
         <h1>Vote Statistics</h1>
         <div class="candidate-row">
     <?php
@@ -117,13 +96,8 @@ foreach($aCandidates as $sCandidate){
 
     ?>
     </div>
-
     </div>
-
   </div>
-
-
-
 </div>
 
     

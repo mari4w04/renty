@@ -3,9 +3,6 @@
 * {
   font-family: "Lato", sans-serif;
 }
-body.login-page {
-  /* background-image: linear-gradient(to top, #ffc3a0 0%, #ffafbd 100%); */
-}
 body {
   height: 100vh;
   background-image: linear-gradient(to bottom, #ffc3a0 0%, #ffafbd 100%);
@@ -53,8 +50,8 @@ h1 {
   color: white;
 }
 h2 {
-  font-size: 23px;
-  font-weight: 900;
+  font-size: 1.2em;
+  /* font-weight: 700; */
 }
 h3 {
   text-transform: uppercase;
@@ -198,5 +195,21 @@ button {
   }
   .name-tag {
     width: 144px;
+  }
+  .confirmation-map {
+    width: 100vw;
+  }
+  .confirmation-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: center;
+  }
+  .confirmation-section > div {
+    padding: 1em;
+    width: 100%;
+  }
+  .confirmation-section img {
+    width: 100%;
+    max-width: 70px;
   }
 }
