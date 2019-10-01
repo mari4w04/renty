@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="login-page">
-    <nav>
-        <a href="login">Login</a>
-        <div class="line-separator"></div>
-        <a href="signup">Signup</a>
-    </nav>
+<?php
+
+require_once __DIR__.'/top.php'; 
+?>
+<div class="login-page">
+
+    <div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='title'>
     <div><img class="logo" src="images/logo.png" alt=""></div>
     <div class="form-container login">
+
         <h1>Login</h1>
         
         <form id="frmLogin" method="POST">
@@ -23,7 +19,7 @@
             <button>Login</button>
         </form>
     </div>
-
+</div>
     
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

@@ -1,0 +1,18 @@
+* {
+    border: 1px red solid;
+}
+
+.bikeCategoryContainer {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.bikeCategoryContainer div {
+    border: 1px solid lightslategray;
+}
+
+.bikeCategoryContainer img {
+    width: 100%;
+}

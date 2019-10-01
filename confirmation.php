@@ -14,7 +14,7 @@
       <a href="apis/logout.php">Log out</a>
   </nav>
 
-<div class="content">
+<div class="content confirmation">
 <!-- map -->
 <img class="confirmation-map" src="images/map.jpg" alt="">
 <div class="confirmation-section">
@@ -36,14 +36,14 @@
 <h3>5.50pm-5.53</h3>
 </div>
 <!-- total price -->
-<div>
+<div class="confirmation-price">
 <h2>18kr</h2>
-<h3>5.50pm-5.53</h3>
+<h3>christiania bike</h3>
 </div>
 </div>
 
 <!-- Logo -->
-</div>
+<img class="logo" src="images/logo.png" alt=""></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
