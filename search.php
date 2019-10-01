@@ -3,7 +3,7 @@
 require_once __DIR__.'/top.php'; 
 ?>
 <nav>
-        <!-- <img src="images/back.png" alt=""> -->
+        <img src="images/back.png" alt="">
         <img src="images/logo-pink.png" alt="">
         <div>Logout</div>
     </nav>
