@@ -43,3 +43,67 @@ h1{
 .bikeCategoryContainer img{
     width:100%;
 }
+
+#map{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#mapContainer{
+    position: relative; 
+}
+
+#bikeInfo{
+    position: absolute;
+    top: 52vh;
+    left: 24vw;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width:40vw;
+    text-align: center;
+    display: none;
+}
+
+#mapContainer div img{
+    width: 50%;
+    padding: 3px;
+}
+
+#mapContainer hr{
+    margin: 1vh 3vw;
+}
+
+#clicker{
+    position: absolute;
+    z-index: 4;
+    height: 50px;
+    width: 50px;
+    top: 44vh;
+    left: 36vw;
+}
+
+.address{
+    font-weight: 600;
+    padding: 5px;
+}
+
+.distance{
+    color:lightgrey;
+    font-size:14px;
+}
+
+#up-arrow {
+	border-color: white transparent;
+    border-style: solid;
+    border-width: 0px 20px 20px 20px;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    z-index: 2;
+    top: 50vh;
+    left: 38vw;
+    display: none;
+}

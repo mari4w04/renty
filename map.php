@@ -1,14 +1,34 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="app.css">
+    <title>Map</title>
+</head>
+<body>
+<div id="clicker"></div>
+<div id="up-arrow"></div>
+<div id="mapContainer">
+<img id="map" src="images/Screenshot 2019-10-01 at 11.03.21.png">
+<div id="bikeInfo">
+<p class="address">Vibevej 8</p>
+<p class="distance">197 M AWAY</p>
+<hr>
+<img src="images/norden-ellen-da-n7-askegra-m-pink.png">
 
-require_once __DIR__.'/top.php'; 
-?>
+</div>
 
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
 
+$( "#clicker" ).click(function() {
+  $( "#up-arrow" ).toggle();
+  $("#bikeInfo").toggle();
+});
 
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.0472940159148!2d12.536451415777574!3d55.70554968054066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525248e4e905a1%3A0xb8251ef4e0ba6c3f!2sLygten%208%2C%202400%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1569916105443!5m2!1sda!2sdk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
-
-<?php
-require_once __DIR__.'/bottom.php'; 
+</script>
+</body>
+</html>
