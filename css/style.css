@@ -213,3 +213,25 @@ button {
     max-width: 70px;
   }
 }
+
+.vote-results{
+    margin-top: 30px;   
+}
+
+
+
+@media screen and (max-width: 1240px){
+    .candidate-row {
+        flex-direction: column;
+    }
+    .name-container {
+        display: flex;
+        justify-content: center;
+        margin-left: -25px;
+    }
+    .name-tag {
+        width: 144px;
+    }
+
+}
+
