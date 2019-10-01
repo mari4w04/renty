@@ -13,11 +13,12 @@
         <div class="line-separator"></div>
         <a href="signup">Signup</a>
     </nav>
+    <div><img class="logo" src="images/logo.png" alt=""></div>
     <div class="form-container login">
         <h1>Login</h1>
         
         <form id="frmLogin" method="POST">
-            <input name="txtLoginCPR" type="text" placeholder="Your CPR" >
+            <input name="txtLoginEmail" type="text" placeholder="Your Email" >
             <input name="txtLoginPassword" type="password" placeholder="password">
             <button>Login</button>
         </form>

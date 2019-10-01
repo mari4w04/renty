@@ -18,7 +18,7 @@
         <form id="frmRegister">
             <input name="txtFirtstName" id="txtFirstName" type="text" placeholder="Your first name">
             <input name="txtLastName" id="txtLastName" type="text" placeholder="Your last name">
-            <input name="txtCpr" id="txtCpr" type="text" placeholder="CPR number*" value="">
+            <input name="txtSignupEmail" id="txtSignupEmail" type="text" placeholder="Email *" value="">
             <input name="password" id="password" type="password" placeholder="Password*" value="">
             <input name="confirmPassword" id="confirmPassword" type="password" placeholder="Type password again*" value="">
             <button class="frmButton">Sign up</button>
