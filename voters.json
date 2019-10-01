@@ -1,9 +1,14 @@
 {
-  "data": {
-    "test@test.com": {
-      "firstName": "test",
-      "lastName": "test",
-      "password": "$2y$10$LbOUK8VebkC7kQRgZv7MmePfTZC/4JGsyWNgYV2B.vTuwL74Hl77C"
+    "data": {
+        "test@test.com": {
+            "firstName": "test",
+            "lastName": "test",
+            "password": "$2y$10$LbOUK8VebkC7kQRgZv7MmePfTZC\/4JGsyWNgYV2B.vTuwL74Hl77C",
+            "hasVoted": true,
+            "vote": {
+                "voteId": "5d91f4cfdf861",
+                "candidateName": "Cory Booker"
+            }
+        }
     }
-  }
 }
