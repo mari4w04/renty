@@ -2,12 +2,22 @@
   require_once 'top.php';
 ?>
 
+<div class="page">
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<nav>
+        <img src="images/back-white.png" alt="">
+        <img src="images/logo.png" alt="">
+        <div>Logout</div>
+    </nav>
 <div class="main-container">
     <h1 class="padding-top-bottom-40">Have a safe ride!</h1>
     <h1 id="stopwatch"><time>00:00:00</time></h1>
     <button id="stop">End Ride</button>
 
     
+</div>
 </div>
 
 <script>

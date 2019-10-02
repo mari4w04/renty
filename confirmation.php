@@ -1,18 +1,16 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/white-theme.css">
-</head>
-<body>
-  <nav>  
-      <h6>Hi, Username</h6>
-      <div class="line-separator"></div>
-      <a href="apis/logout.php">Log out</a>
-  </nav>
+<?php
+
+require_once __DIR__.'/top.php'; 
+?>
+<div class="page">
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<nav>
+        <img src="images/back-white.png" alt="">
+        <img src="images/logo.png" alt="">
+        <div>Logout</div>
+    </nav>
 
 <div class="content confirmation">
 <!-- map -->
@@ -48,5 +46,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/vote.js"></script>
-</body>
-</html>
+    <?php 
+    // $sLinkToScript = '<script src="js/payment.js"></script>';
+    
+    require_once 'bottom.php';
+?>

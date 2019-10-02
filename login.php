@@ -2,14 +2,18 @@
 
 require_once __DIR__.'/top.php'; 
 ?>
-<div class="login-page">
+<div class="page">
 
     <div id='stars'></div>
 <div id='stars2'></div>
 <div id='stars3'></div>
-<div id='title'>
+<nav>
+        <a href="login">Login</a>
+        <div class="line-separator"></div>
+        <a href="signup">Signup</a>
+    </nav>
     <div><img class="logo" src="images/logo.png" alt=""></div>
-    <div class="form-container login">
+    <div class="container login">
 
         <h1>Login</h1>
         
@@ -25,5 +29,6 @@ require_once __DIR__.'/top.php';
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/login.js"></script>
+    </div>
 </body>
 </html>
