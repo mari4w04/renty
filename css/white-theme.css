@@ -52,12 +52,6 @@ nav {
   margin: 10px;
 }
 
-input[type="text"],
-input[type="password"] {
-  background-color: white;
-  border: 1px solid #dbdbdb;
-}
-
 form {
   width: 100%;
 }

@@ -29,11 +29,14 @@ if( strlen($password) > 50 ){ fnvSendResponse(0, __LINE__,'Password cant be long
 $confirmPassword = $_POST['confirmPassword'] ?? '';
 if(empty($confirmPassword)){fnvSendResponse(0, __LINE__,'Confirm password field cant be empty');}
 if($password != $confirmPassword){fnvSendResponse(0, __LINE__,'Passwords doesnt match');}
+
+
 $sData = file_get_contents('../voters.json');
 $jData = json_decode($sData);
 
 if($jData == null){fnvSendResponse(0, __LINE__,'json data corrupt'); }
 $jInnerData = $jData->data; //from the data obj. - point to the obj. inside = the id/phone
+
 $jClient = new stdClass(); // json empty obj.
 $jClient->firstName = $sFirstName;
 $jClient->lastName = $sLastName;
