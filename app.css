@@ -17,29 +17,150 @@
     padding: 10%;
 }
 
-.logoContainer p{
-    display: grid;
-    height: 15vh;
-    justify-content: center;
-    align-content: center;
+/* ------------------------------------ SEARCH.PHP -------------------------------------------- */
+
+.mySlides {
+    display: none
 }
 
-h1{
-    font-size: 1.5em;
+.slideshow-container img {
+    vertical-align: middle;
+    width:100%;
+    padding: 35px;
+}
+
+.slideshow-container {
+    width: 100vw;
+    height:50vh;
+    position: relative;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -12px;
+  width: 100%;
+  text-align: center;
+}
+
+.slideshow-container h1{
+    color: black;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
     text-align: center;
 }
 
-.bikeCategoryContainer{
-    margin: 5%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-.bikeCategoryContainer div{
-    border: 1px solid lightslategray;
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
-.bikeCategoryContainer img{
-    width:100%;
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.SearchTitle{
+    margin: 5vh 15vw;
+    text-align: center;
+}
+
+
+
+
+/* ------------------------------------ MAP.PHP -------------------------------------------- */
+
+#mapPage{
+    background-image: url(images/map.png);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: -43vw;
+}
+
+#bikeInfo{
+    position: absolute;
+    top: 52vh;
+    left: 24vw;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width:40vw;
+    text-align: center;
+    display: none;
+}
+
+#bikeInfo img{
+    width: 50%;
+    padding: 3px;
+}
+
+#bikeInfo hr{
+    margin: 1vh 3vw;
+}
+
+#clicker{
+    position: absolute;
+    z-index: 4;
+    height: 50px;
+    width: 50px;
+    top: 44vh;
+    left: 36vw;
+}
+
+.address{
+    font-weight: 600;
+    padding: 5px;
+}
+
+.distance{
+    color:lightgrey;
+    font-size:14px;
+}
+
+#up-arrow {
+	border-color: white transparent;
+    border-style: solid;
+    border-width: 0px 20px 20px 20px;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    z-index: 2;
+    top: 50vh;
+    left: 38vw;
+    display: none;
+}
+
+#chooseBikeBtn{
+    cursor: pointer;
 }
