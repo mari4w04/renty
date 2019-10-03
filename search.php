@@ -2,6 +2,16 @@
 
 require_once __DIR__.'/top.php'; 
 ?>
+<div class="page">
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<nav>
+        <img src="images/back-white.png" alt="">
+        <img src="images/logo.png" alt="">
+        <div>Logout</div>
+    </nav>
+
 
 <h1 class="SearchTitle"> choose your type of bikes :</h1>
 
@@ -17,7 +27,8 @@ require_once __DIR__.'/top.php';
     <img src="images/3731930550320.jpg">
     <h1>Kid bike</h1>
     <div class="text">100kr/hour</div>
-</div>
+  </div>
+
 
 <div class="mySlides fade">
     <img src="images/3121Li-1-1-2.jpg">

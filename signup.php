@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="login-page">
+<?php
+
+require_once __DIR__.'/top.php'; 
+?>
+<div class="page">
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
     <nav>
         <a href="login">Login</a>
         <div class="line-separator"></div>
         <a href="signup">Signup</a>
     </nav>
-    <div class="form-container">
+    <div class="container">
         <h1>Sign up for voting</h1>
         <form id="frmRegister">
             <input name="txtFirtstName" id="txtFirstName" type="text" placeholder="Your first name">
@@ -31,5 +29,6 @@
 
     <script src="js/register.js"></script>
 
+</div>
 </body>
 </html>
