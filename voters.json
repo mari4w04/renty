@@ -6,5 +6,11 @@
             "password": "$2y$10$BAYqpd29EZoXeZ7SMpsgTOpcHtuK4FBLAexrjzU3Xxv4D1OnSSn6.",
             "hasVoted": false
         },
+        "m@m.com": {
+            "firstName": "Marija",
+            "lastName": "Bel",
+            "password": "$2y$10$uJFHLN9nShRUaZ2tDegze.2prnxQxJZbxdQvPn.KfDv\/4ULopt4Eu",
+            "hasVoted": false
+        }
     }
 }
