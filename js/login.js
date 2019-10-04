@@ -1,23 +1,23 @@
-$('#frmLogin').submit( function(){
+$('#frmLogin').submit(function () {
 
     $.ajax({
-        method:"POST",
-        url:"apis/api-login",
+        method: "POST",
+        url: "apis/api-login",
         data: $('#frmLogin').serialize(),
-        dataType:"JSON"
-    }).done(function(jData){
+        dataType: "JSON"
+    }).done(function (jData) {
         console.log(jData)
-        if(jData.status == 1){
-            location.href = 'vote'
-        }else{
+        if (jData.status == 1) {
+            location.href = 'scan'
+        } else {
             swal({
                 title: "System update",
-                text: "System is under maintenance code: "+jData.code,
+                text: "System is under maintenance code: " + jData.code,
                 icon: "warning",
             });
         }
-        
-    }).fail(function(){
+
+    }).fail(function () {
         console.log('API does not work')
     });
 
