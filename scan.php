@@ -27,7 +27,7 @@
         <div id="plateNumber">
             <h2>Enter plate number</h2>
             <input type="text" name="plateNumber" id="plateNumber">
-            <button id="unlockBtn">UNLOCK</button>
+            <a href='ride-start.php'><button id="unlockBtn">UNLOCK</button></a>
         </div>
         
     

@@ -49,6 +49,8 @@
 </div>
 </div>
 
+<a href='map.php'><button>New ride</button></a>
+
 <!-- Logo -->
 <img class="logo" src="images/logo.png" alt=""></div>
 

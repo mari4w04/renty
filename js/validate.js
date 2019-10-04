@@ -8,7 +8,7 @@ $('#frmPayment').submit( function(){
     }).done(function(jData){
         console.log(jData)
         if(jData.status == 1){
-            location.href = 'ride-start.php';
+            location.href = 'scan.php';
             // swal({
             //     title: "Payment success",
             //     text: "You can login now",

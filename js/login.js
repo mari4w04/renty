@@ -8,7 +8,7 @@ $('#frmLogin').submit(function () {
     }).done(function (jData) {
         console.log(jData)
         if (jData.status == 1) {
-            location.href = 'scan'
+            location.href = 'payment'
         } else {
             swal({
                 title: "System update",

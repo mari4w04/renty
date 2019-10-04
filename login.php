@@ -21,7 +21,7 @@
         <div class="line-separator"></div>
         <a href="signup">Signup</a>
     </nav>
-    <div><img class="logo" src="images/logo.png" alt=""></div>
+    <!-- <div><img class="logo" src="images/logo.png" alt=""></div> -->
     <div class="container login">
 
         <h1>Login</h1>

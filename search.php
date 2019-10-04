@@ -50,6 +50,7 @@
 
                   </div>
 </div>
+<a href='map.php'><button>Find bikes nearby</button></a>
 <!-- end page -->
 <script>
 
