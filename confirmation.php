@@ -17,42 +17,39 @@
 <div id='stars3'></div>
 <nav>
 <a href="#"><img src="images/back-white.png" alt=""></a>
-<a href="map"><img src="images/logo.png" alt=""></a>
-      <a href="map">Logout</a>
     </nav>
 
-<div class="content confirmation">
+    <h1>Receipt</h1>
+    <div class="content-confirmation">
+    <img class="confirmation-map" src="images/map.jpg" alt="">
 <!-- map -->
-<img class="confirmation-map" src="images/map.jpg" alt="">
 <div class="confirmation-section">
 <!-- km ridden -->
 <div>
 <img src="images/pin.png" alt="">
-<h2>1km</h2>
-<h3>Distance</h3>
+<h6>Distance</h6>
+<h4>1km</h4>
 </div>
 <!-- time ride -->
 <div>
 <img src="images/stop-watch.png" alt="">
-<h2>3min</h2>
-<h3>Duration</h3>
+<h6>Duration</h6>
+<h4>3min</h4>
 </div>
 <!-- date, start time finish time -->
 <div>
-<h2>Tuesday, October 1, 2019</h2>
-<h3>5.50pm-5.53</h3>
+<h4>Tuesday, October 1, 2019</h4>
+<h6>5.50pm-5.53</h6>
 </div>
 <!-- total price -->
 <div class="confirmation-price">
-<h2>18kr</h2>
-<h3>christiania bike</h3>
+<h4>18kr</h4>
+<h6>christiania bike</h6>
 </div>
 </div>
-
 <a href='map.php'><button>New ride</button></a>
 
-<!-- Logo -->
-<img class="logo" src="images/logo.png" alt=""></div>
+</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
