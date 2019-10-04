@@ -17,9 +17,9 @@
 <div id='stars2'></div>
 <div id='stars3'></div>
 <nav>
-        <a href="login">Login</a>
-        <div class="line-separator"></div>
-        <a href="signup">Signup</a>
+        <a href="scan"><img src="images/back-white.png" alt=""></a>
+        <a href="map"><img src="images/logo.png" alt=""></a>
+        <a href="map"></a>
     </nav>
     <!-- <div><img class="logo" src="images/logo.png" alt=""></div> -->
     <div class="container login">
@@ -32,6 +32,7 @@
             <button>Login</button>
         </form>
     </div>
+    <a href="signup">Signup</a>
 </div>
     
 

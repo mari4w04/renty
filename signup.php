@@ -15,10 +15,10 @@
 <div id='stars'></div>
 <div id='stars2'></div>
 <div id='stars3'></div>
-    <nav>
-        <a href="login">Login</a>
-        <div class="line-separator"></div>
-        <a href="signup">Signup</a>
+<nav>
+        <a href="scan"><img src="images/back-white.png" alt=""></a>
+        <a href="map"><img src="images/logo.png" alt=""></a>
+        <a href="map"></a>
     </nav>
     <div class="container">
         <h1>Sign up</h1>
@@ -31,7 +31,7 @@
             <button class="frmButton">Sign up</button>
         </form>
     </div>
-
+    <a href="signup">Signup</a>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
