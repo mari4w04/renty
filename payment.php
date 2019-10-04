@@ -23,7 +23,7 @@
  
         <div class="payment-info">
         <h2>10kr unlock + 2.50kr / min<span class="align-right" id="chosenCarPrice"></span></h2>
-        <h2><input type="checkbox" checked>Insurance 25kr</h2>
+        <h2><input type="checkbox" checked="checked">Insurance 25kr</h2>
         </div>
         <div class="container">
         <!-- <h2>Credit Card & Billing Information</h2> -->

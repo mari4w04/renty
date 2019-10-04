@@ -43,8 +43,8 @@
 </div>
 <!-- total price -->
 <div class="confirmation-price">
+    <h6>total</h6>
 <h4>18kr</h4>
-<h6>christiania bike</h6>
 </div>
 </div>
 <a href='map.php'><button>New ride</button></a>
