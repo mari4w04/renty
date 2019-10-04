@@ -45,7 +45,8 @@ nav{
     align-items: center;
     justify-items: center;
 }
-nav > img {
+
+nav>img {
   max-height: 50px;
 }
 nav h6{
@@ -444,7 +445,7 @@ select{
   text-align: center;
 }
 
-.confirmation-section > div {
+.confirmation-section>div {
   padding: 1em;
   width: 100%;
 }
@@ -454,15 +455,15 @@ select{
   max-width: 70px;
 }
 
-.confirmation-price > h3 {
+.confirmation-price>h3 {
   background-color: dark grey;
 }
 
-.confirmation > .logo {
+.confirmation>.logo {
   max-width: 100px;
 }
 
-.search-page > .logo {
+.search-page>.logo {
   width: 100px;
 }
 
@@ -483,6 +484,56 @@ select{
 .name-tag {
   width: 144px;
 }
+
+
+/* Scan the bike */
+input[type="text"] {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+#unlockSection {
+  width: 90%;
+  padding: 20px;
+}
+
+#enableCamera {
+  width: 80%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#chooseSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
+  position: absolute;
+  bottom: 5%;
+  left: 11%;
+}
+
+.choose {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: #0055a5;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#qrCodePng {
+  width: 50px;
+  height: 50px;
+  filter: invert(1);
+}
+
 @media screen and (max-width: 1240px){
     .candidate-row {
         flex-direction: column;
@@ -497,3 +548,4 @@ select{
     }
 }
  
+

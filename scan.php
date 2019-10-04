@@ -4,54 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <title>Scan bike</title>
-
-    <style>
-    input[type="text"]{
-        font-size:24px;
-        text-transform: uppercase;
-        margin-top: 10px;
-    }
-    #unlockSection{
-        width: 90%;
-        padding: 20px;
-    }
-    #enableCamera{
-        width: 80%;
-    }
-    h2{
-        display: flex;
-        justify-content: center;
-    }
-    #chooseSection{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 80px;
-        position: absolute;
-        bottom: 5%;
-        left: 11%;
-    }
-    .choose{
-        width: 100px;
-        height: 100px;
-        color: white;
-        background-color: #0055a5;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    #qrCodePng{
-        width: 50px;
-        height: 50px;
-        filter: invert(1);
-    }
-
-</style>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/white-theme.css">
+    <title>Renty</title>
 </head>
 <body>
+<div class="page">
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <nav> 
+        <img src="images/back-white.png" alt="">
+        <img src="images/logo.png" alt="">
+        <div>Logout</div>
+    </nav>
+
     <h1>UNLOCK BIKE</h1>
     <div id="unlockSection">
 
@@ -75,6 +44,7 @@
 
 
     </div>
+</div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
