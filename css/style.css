@@ -42,7 +42,7 @@ nav {
   justify-items: center;
 }
 
-nav>img {
+nav > img {
   max-height: 50px;
 }
 
@@ -247,7 +247,7 @@ button {
   text-align: center;
 }
 
-.confirmation-section>div {
+.confirmation-section > div {
   padding: 1em;
   width: 100%;
 }
@@ -257,25 +257,21 @@ button {
   max-width: 70px;
 }
 
-.confirmation-price>h3 {
+.confirmation-price > h3 {
   background-color: dark grey;
 }
 
-.confirmation>.logo {
+.confirmation > .logo {
   max-width: 100px;
 }
 
-
-
-.search-page>.logo {
+.search-page > .logo {
   width: 100px;
 }
-
 
 .vote-results {
   margin-top: 30px;
 }
-
 
 .candidate-row {
   flex-direction: column;
