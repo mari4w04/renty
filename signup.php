@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/white-theme.css">
+    <link rel="stylesheet" href="css/overall-style.css">
+
     <title>Renty</title>
 </head>
 <body>
@@ -19,25 +21,26 @@
         <a href="scan"><img src="images/back-white.png" alt=""></a>
         <a href="map"></a>
     </nav>
-    <div class="signup-page-wrapper">
+    
         <h1>Sign up</h1>
+        <div class="signup-page-wrapper">
         <div class="container">
-        <form id="frmRegister">
-            <h6>First name</h6>
-            <input name="txtFirtstName" id="txtFirstName" type="text">
-            <h6>Last name</h6>
-            <input name="txtLastName" id="txtLastName" type="text">
-            <h6>Email</h6>
-            <input name="txtSignupEmail" id="txtSignupEmail" type="text" value="">
-            <h6>Password</h6>
-            <input name="password" id="password" type="password" value="">
-            <h6>Confirm Password</h6>
-            <input name="confirmPassword" id="confirmPassword" type="password" value="">
-            <button class="frmButton">Sign up</button>
-            <a class="form-link" href="login">Login</a>
-        </form>
+            <form id="frmRegister">
+                <h6>First name</h6>
+                <input name="txtFirtstName" id="txtFirstName" type="text">
+                <h6>Last name</h6>
+                <input name="txtLastName" id="txtLastName" type="text">
+                <h6>Email</h6>
+                <input name="txtSignupEmail" id="txtSignupEmail" type="text" value="">
+                <h6>Password</h6>
+                <input name="password" id="password" type="password" value="">
+                <h6>Confirm Password</h6>
+                <input name="confirmPassword" id="confirmPassword" type="password" value="">
+                <button class="frmButton">Sign up</button>
+                <a class="form-link" href="login">Login</a>
+            </form>
+        </div>
     </div>
-</div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
