@@ -16,7 +16,6 @@ h1{
     font-weight: 700;
     line-height: 1em;
     font-size: 40px;
-    margin-left: 10vw;
 }
 .page {
     padding: 0;
@@ -97,19 +96,55 @@ h1{
     animation-duration: 1.5s;
 }
 .search-page-container{
-    height: 23vh;
+    height: 27vh;
     padding-top: 10%;
 }
-.search-page-wrapper{
+.search-page-wrapper, .login-page-wrapper{
     margin-top: 30vw;
+}
+.login-page-wrapper input[type="text"], input[type="password"]{
+    height: 40px;
+}
+.login-page-wrapper h5{
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 0;
+}
+.login-page-wrapper #password-label{
+    margin-top: 50px;
+}
+.login-page-wrapper .container{
+    padding: 20px 35px;
+}
+.login-page-wrapper .form-link{
+    color: #ff5b4f;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 20px;
+}
+#login-btn{
+    margin-top: 50px;
+}
+.search-page-wrapper h1{
+    margin-left: 10vw;
 }
 button, input[type=submit]{
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
     height: 60px;
 }
+.find-btn{
+    display: flex;
+    justify-content: center;
+}
+.find-btn i{
+    margin-right: 15px;
+}
 a{
     text-decoration: none;
+}
+.signup-page-wrapper input[type="text"], input[type="password"]{
+    margin-bottom: 30px;
 }
 @keyframes fade {
     from {

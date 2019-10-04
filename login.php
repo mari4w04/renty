@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/white-theme.css">
+    <link rel="stylesheet" href="css/overall-style.css">
     <title>Renty</title>
 </head>
 <body>
@@ -21,15 +22,19 @@
     </nav>
     <!-- <div><img class="logo" src="images/logo.png" alt=""></div> -->
     
-    <h1>Login</h1>
-        <div class="container login">
-        
-        <form id="frmLogin" method="POST">
-            <input name="txtLoginEmail" type="text" placeholder="Your Email" >
-            <input name="txtLoginPassword" type="password" placeholder="password">
-            <button>Login</button>
-            <a class="form-link" href="signup">Signup</a>
-        </form>
+    <div class="login-page-wrapper">
+        <h1>Log in</h1>
+            <div class="container login">
+            
+            <form id="frmLogin" method="POST">
+                <label for=""><h5>Email</h5></label>
+                <input name="txtLoginEmail" type="text">
+                <label for=""><h5 id="password-label">Password</h5></label>
+                <input name="txtLoginPassword" type="password">
+                <button id="login-btn">Login</button>
+                <a class="form-link" href="signup">Sign up</a>
+            </form>
+        </div>
     </div>
 </div>
     
