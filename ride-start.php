@@ -17,15 +17,14 @@
 <div id='stars2'></div>
 <div id='stars3'></div>
 <nav>
-        <img src="images/back-white.png" alt="">
-        <img src="images/logo.png" alt="">
-        <div><a href="map.php">Logout</a></div>
+        <img src="images/back-white.png" alt=""> 
     </nav>
 <div class="main-container">
-    <img class="ride-start" src="images/ride-start.png" alt=""></div>
     <h1 class="padding-top-bottom-40">Have a safe ride!</h1>
-    <h1 id="stopwatch"><time>00:00:00</time></h1>
-    <button id="stop">End Ride</button>
+    <h2 id="stopwatch"><time>00:00:00</time></h2>
+    <div class="white-container">
+        <button id="stop">End Ride</button>
+    </div>
 
     
 </div>

@@ -28,13 +28,13 @@
         </div>
 
         <div class="mySlides fade">
-            <img src="images/3731930550320.jpg">
+            <img src="images/bike2.png">
             <h5>Kid bike</h5>
           </div>
 
 
         <div class="mySlides fade">
-            <img src="images/3121Li-1-1-2.jpg">
+            <img src="images/bike3.png">
             <h5>Christiania bike</h5>
         </div>
 
