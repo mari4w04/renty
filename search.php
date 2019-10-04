@@ -33,6 +33,7 @@
           <div class="text">100kr/hour</div>
         </div>
 
+
       <div class="mySlides fade">
           <img src="images/3121Li-1-1-2.jpg">
           <h1>Christiania bike</h1>
@@ -44,10 +45,13 @@
 
   </div>
 
-  
 
 </div>
   <a href='map.php'><button>Find bikes nearby</button></a>
+
+
+                  </div>
+                  <a href='map.php'><button>Find nearby</button></a>
 
 </div>
 <!-- end page -->

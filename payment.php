@@ -45,7 +45,7 @@
                 <input name="paymentCvv" id="paymentCvv" type="text">
             </div>
         
-            <button id="payBtn" type="submit" class=" btn green-btn">Pay</button>
+            <button id="payBtn" type="submit">Pay</button>
         </form>
    </div>
     
