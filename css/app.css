@@ -214,7 +214,7 @@
 /* ------------------------------------ MAP.PHP -------------------------------------------- */
 
 #mapPage {
-    background-image: url(images/map.png);
+    background-image: url(../images/map.png);
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -232,7 +232,7 @@
     border-radius: 5px;
     width: 40vw;
     text-align: center;
-    display: none;
+    /* display: none; */
 }
 
 #bikeInfo img {
@@ -247,9 +247,9 @@
 #clicker {
     position: absolute;
     z-index: 4;
-    height: 50px;
-    width: 50px;
-    top: 44vh;
+    height: 60px;
+    width: 60px;
+    top: 41vh;
     left: 36vw;
 }
 
@@ -278,4 +278,27 @@
 
 #chooseBikeBtn {
     cursor: pointer;
+}
+
+#map-page .search-page-container {
+    margin-top: 73vh;
+}
+
+#map-page .address {
+    color: black;
+}
+
+#mapPage #choose-bike-container {
+    margin-top: 90vh;
+}
+
+.hidden {
+    visibility: none;
+}
+
+.choose-bike-container-animation {
+    display: block;
+    transform: translateY(-150px);
+    transition: transform 1s ease;
+    transition-delay: 0.4s;
 }
