@@ -1,19 +1,12 @@
-*{
-    font-family: 'Lato', sans-serif;
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-.logoContainer{
-    height:15vh;
+.logoContainer {
+    height: 15vh;
     display: grid;
     justify-content: center;
     align-content: center;
 }
 
-.logoContainer svg{
-    height: 15vh;
+.logoContainer svg {
+    height: 55vh;
     padding: 10%;
 }
 
@@ -25,47 +18,48 @@
 
 .slideshow-container img {
     vertical-align: middle;
-    width:100%;
+    width: 100%;
     padding: 35px;
 }
 
 .slideshow-container {
     width: 100vw;
-    height:50vh;
+    height: 50vh;
     position: relative;
 }
 
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .text {
-  color: black;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: -12px;
-  width: 100%;
-  text-align: center;
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: -12px;
+    width: 100%;
+    text-align: center;
 }
 
-.slideshow-container h1{
+.slideshow-container h1 {
     color: black;
     padding: 8px 12px;
     position: absolute;
@@ -75,20 +69,30 @@
 }
 
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
 }
 
-.SearchTitle{
+.SearchTitle {
     margin: 5vh 15vw;
     text-align: center;
 }
@@ -98,16 +102,16 @@
 
 /* ------------------------------------ MAP.PHP -------------------------------------------- */
 
-#mapPage{
+#mapPage {
     background-image: url(images/map.png);
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    background-position: -43vw;
+    background-position: -43vw -55px;
 }
 
-#bikeInfo{
+#bikeInfo {
     position: absolute;
     top: 52vh;
     left: 24vw;
@@ -115,21 +119,21 @@
     background-color: white;
     border: 1px solid lightgrey;
     border-radius: 5px;
-    width:40vw;
+    width: 40vw;
     text-align: center;
     display: none;
 }
 
-#bikeInfo img{
+#bikeInfo img {
     width: 50%;
     padding: 3px;
 }
 
-#bikeInfo hr{
+#bikeInfo hr {
     margin: 1vh 3vw;
 }
 
-#clicker{
+#clicker {
     position: absolute;
     z-index: 4;
     height: 50px;
@@ -138,18 +142,18 @@
     left: 36vw;
 }
 
-.address{
+.address {
     font-weight: 600;
     padding: 5px;
 }
 
-.distance{
-    color:lightgrey;
-    font-size:14px;
+.distance {
+    color: lightgrey;
+    font-size: 14px;
 }
 
 #up-arrow {
-	border-color: white transparent;
+    border-color: white transparent;
     border-style: solid;
     border-width: 0px 20px 20px 20px;
     height: 0px;
@@ -161,6 +165,6 @@
     display: none;
 }
 
-#chooseBikeBtn{
+#chooseBikeBtn {
     cursor: pointer;
 }

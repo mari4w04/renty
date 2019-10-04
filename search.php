@@ -17,7 +17,7 @@
     <div id='stars3'></div>
     <nav> 
     <a href="login"><img src="" alt=""></a>
-        <img src="images/logo.png" alt="">
+    <a href="map"><img src="images/logo.png" alt=""></a>
         <div></div>
     </nav>
 

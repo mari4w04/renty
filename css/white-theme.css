@@ -5,6 +5,8 @@
 body {
   background-color: #f7f7f7;
   background-image: none;
+  font-family: 'Work Sans', sans-serif;
+
 }
 
 /* .content{
@@ -41,7 +43,7 @@ h2 {}
 }
 
 nav {
-  border-bottom: 1px solid #eaeaea;
+
   grid-area: nav;
 }
 
