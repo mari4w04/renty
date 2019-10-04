@@ -11,38 +11,28 @@
     <title>Renty</title>
 </head>
 <body>
-<div class="page">
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
+<div class="page" id="cameraBg">
     <nav> 
-    <a href="payment"><img src="images/back-white.png" alt=""></a>
-    <a href="map"><img src="images/logo.png" alt=""></a>
-        <a href="map">Logout</a>
+    <a href="scan"><img src="images/back-white.png" alt=""></a>
     </nav>
 
-    <h1>UNLOCK BIKE</h1>
-    <div id="unlockSection" class="white-container">
-
-        <div id="chooseSection">
-            <div id="chooseScan" class="choose"><img id="qrCodePng" src="images/qr.png" alt=""></div>
+    <div id="unlockSection">
+    <div id="chooseSection">
+            <a href="scan-camera"><div id="chooseScan" class="choose"><img id="qrCodePng" src="images/qr.png" alt=""></div></a>
             <div id="choosePlate" class="choose"><img id="keyboardCode" src="images/code.png" alt=""></div>
         </div>
 
         <div id="plateNumber">
             <h2>Enter code </h2>
             <input type="text" name="plateNumber" id="plateNumber">
-            <a href='ride-start.php'><button id="unlockBtn">UNLOCK</button></a>
+            <a href='ride-start.php'><button id="unlockBtn">Unlock</button></a>
         </div>
         
         <div id="qrCode">
-           <!-- <div class="enabled-camera"> <img src="images/qr-camera.png" alt=""></div> -->
-            <h2>Enable camera</h2>
+            <!-- <h5>Enable camera</h5>
             <p>Renty will use your camera to scan the QR code</p>
-            <button id="enableCamera">Enable camera access</div>
+            <a href="scan-camera"><button id="enableCamera">Enable camera access</div></a> -->
         </div>
-
-
 
     </div>
 </div>
