@@ -37,13 +37,6 @@ body {
 }
 
 nav {
-  /*     background-color: white;
-    margin: 0 0 20px 0;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 10vw; */
   height: 55px;
   opacity: 10%;
   top: 0%;
@@ -537,69 +530,4 @@ select {
 
 .name-tag {
   width: 144px;
-}
-
-
-/* Scan the bike */
-input[type="text"] {
-  font-size: 24px;
-  text-transform: uppercase;
-  margin-top: 10px;
-}
-
-#unlockSection {
-  width: 90%;
-  padding: 20px;
-}
-
-#enableCamera {
-  width: 80%;
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
-}
-
-#chooseSection {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 80px;
-  position: absolute;
-  bottom: 5%;
-  left: 11%;
-}
-
-.choose {
-  width: 100px;
-  height: 100px;
-  color: white;
-  background-color: #0055a5;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-#qrCodePng {
-  width: 50px;
-  height: 50px;
-  filter: invert(1);
-}
-
-@media screen and (max-width: 1240px) {
-  .candidate-row {
-    flex-direction: column;
-  }
-
-  .name-container {
-    display: flex;
-    justify-content: center;
-    margin-left: -25px;
-  }
-
-  .name-tag {
-    width: 144px;
-  }
 }
