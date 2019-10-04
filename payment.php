@@ -22,22 +22,27 @@
     </nav>
 
     <h1 class="padding-top-bottom-40">Payment</h1>
-   <div class="container">
+ 
         <div class="payment-info">
-        <p>Base Rate<span class="align-right" id="chosenCarPrice"></span></p>
-        <input type="checkbox" checked>Insurance
-    </div>
-        <h2>Credit Card & Billing Information</h2>
+        <h2>10kr unlock + 2.50kr / min<span class="align-right" id="chosenCarPrice"></span></h2>
+        <h2><input type="checkbox" checked>Insurance 25kr</h2>
+        </div>
+        <div class="container">
+        <!-- <h2>Credit Card & Billing Information</h2> -->
         <form id="frmPayment" method="POST">
-            <input name="paymentCardNo" type="text" id="paymentCardNo" placeholder="Card number">
-            <input name="paymentCardHolder" type="text" id="paymentCardHolder" placeholder="Cardholder name">
+            <h6>Card Number</h6>
+            <input name="paymentCardNo" type="text" id="paymentCardNo">
+            <h6>Card Holder</h6>
+            <input name="paymentCardHolder" type="text" id="paymentCardHolder">
             <div class="card-expiry-cvv">
                 <div class="expiry-container">
-                    <input name="paymentMonth" type="text" placeholder="Month" id="paymentCardExpiryMonth">
-                    <div class="slash">/</div>
-                    <input name="paymentYear" type="text" placeholder="Year" id="paymentCardExpiryYear">
+                    <h6>Month</h6>
+                    <h6>Year</h6>
+                    <input name="paymentMonth" type="text" id="paymentCardExpiryMonth">
+                    <input name="paymentYear" type="text" id="paymentCardExpiryYear">
                 </div>
-                <input name="paymentCvv" id="paymentCvv" type="text" placeholder="CVV">
+                <h6>CVV</h6>
+                <input name="paymentCvv" id="paymentCvv" type="text">
             </div>
         
             <button id="payBtn" type="submit" class=" btn green-btn">Pay</button>
