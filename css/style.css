@@ -478,7 +478,7 @@ select {
 /* Payment */
 .expiry-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 
 }
 
@@ -511,9 +511,10 @@ input[type="checkbox"] {
 }
 
 #qrCode h5,
-#plateNumber h5 {
+#plateNumber h5, .red-h5 {
   color: #ff5b4f;
 }
+
 
 #cameraBg {
   background-image: url(../images/camera-bg.png);
