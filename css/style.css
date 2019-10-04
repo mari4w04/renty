@@ -181,7 +181,7 @@ h6 {
   width: 90vw;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 3em 20px 3em 20px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.1);
@@ -202,6 +202,7 @@ select::placeholder {
   color: #c9c9c9;
   text-transform: uppercase;
   margin: 0;
+
   -webkit-box-sizing: border-box;
   /* For legacy WebKit based browsers */
   -moz-box-sizing: border-box;
@@ -427,6 +428,7 @@ select {
   grid-template-columns: 1fr 1fr;
   text-align: center;
   padding: 0px 50px;
+  margin-top: 20px;
 }
 
 .confirmation-section>div {
