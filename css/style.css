@@ -4,42 +4,76 @@
     font-family: 'Lato', sans-serif;
 }
 .login-page{
-    background-color: #0055a5;
+    background-color: #ffbc00;
+}
+.page {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(to top left, #ffbc00 10%, #ff0c8e 90%);
+}
+div .logo {
+  text-align: center;
+  display: flex;
+  margin: 10%;
+}
+.logo {
+  width: 70vw;
+  text-align: center;
 }
 body{
-    /* background-image: url('../images/signup-transparent-bg.png'); */
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 0;
     margin: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 nav{
-    background-color: white;
+/*     background-color: white;
     margin: 0 0 20px 0;
     height: 55px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 10vw;
+    padding-left: 10vw; */
+    height: 55px;
+    opacity: 10%;
+    top: 0%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+nav > img {
+  max-height: 50px;
+}
+nav h6{
+    margin-block-start: 6px;
+    margin-block-end: 5px;
 }
 nav a{
     text-decoration: none;
-    color: #0055a5;
+/*     color: #ffbc00; */
+    color: white;
     font-weight: 700;
     margin-left: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 h1{
-    font-family: 'Raleway', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 30px;
     font-weight: 900;
     text-align: center;
     margin-bottom: 40px;
-    color: #0055a5;
+/*     color: #ffbc00; */
+    color: white;
 }
 h2{
-    font-size: 23px;
-    font-weight: 900;
+/*     font-size: 23px;
+    font-weight: 900; */
+  font-size: 1.2em;
+  text-align: center;
 }
 h3{
     text-transform: uppercase;
@@ -47,12 +81,18 @@ h3{
     font-weight: 900;
     margin-left: 20px;
 }
-h6{
+h6, label{
     margin-block-start: 10px;
     margin-block-end: 5px;
     font-size: 12px;
     color: #CECECE;
     text-transform: uppercase;
+}
+label{
+    margin-bottom: 5px;
+}
+.form-card input[type=text]{
+    margin-top: 10px;
 }
 .form-container{
     width: 35vw;
@@ -85,8 +125,13 @@ input[type=text], input[type=password], button{
     margin-bottom: 10px;
     padding: 0 0 0 10px;
 }
-button{
-    background-color: #0055a5;
+input[type=submit]{
+    border: none;
+    height: 50px;
+}
+button, input[type=submit]{
+    background: rgb(255,12,142);
+    background: linear-gradient(90deg, rgba(255,12,142,1) 0%, rgb(255, 187, 0) 100%);
     font-size: 20px;
     color: white;
     font-weight: 700;
@@ -104,6 +149,7 @@ button{
     margin: 10px;
     display: flex;
     flex-direction: column;
+    padding: 60px;
 }
 .line-separator{
     background-color: #CECECE;
@@ -118,8 +164,336 @@ button{
 }
 .candidate-row{
     display: flex;
+    justify-content: space-evenly;
 }
 .candidate img{
     height: auto;
-    width: 150px;
+    width: 170px;
 }
+.vote-btn{
+    width: 80px;
+    text-transform: uppercase;
+    font-size: 15px;
+    height: 40px;
+}
+.name-tag{
+    background-color: #e33529;
+    color: white;
+    padding: 10px;
+    width: 10vw;
+    margin-top: 5px;
+    position: relative;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  text-align: center;
+}
+
+h6 {
+  margin-block-start: 10px;
+  margin-block-end: 5px;
+  font-size: 12px;
+  color: #cecece;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus,
+select,
+button,
+::placeholder {
+  font-size: 1em;
+  width: 150px;
+  color: white;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box;
+  /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  display: block;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-width: 0;
+  border-style: none;
+  border-radius: 5px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 0 0 0 10px;
+}
+
+button {
+  background-color: #ff0093;
+  /* background-color: #ffc200; */
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: 190px;
+  padding: 0;
+  border-radius: 50px;
+  margin: 20px auto 20px auto;
+  cursor: pointer;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.line-separator {
+  background-color: white;
+  height: 25px;
+  width: 1px;
+  margin-left: 10px;
+}
+
+.candidate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.candidate-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.candidate img {
+  height: auto;
+  width: 170px;
+}
+
+.vote-btn {
+  width: 80px;
+  text-transform: uppercase;
+  font-size: 15px;
+  height: 40px;
+}
+
+.name-tag {
+  background-color: #e33529;
+  color: white;
+  padding: 10px;
+  width: 10vw;
+  margin-top: 5px;
+  position: relative;
+}
+
+.name-tag:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 13%;
+    height: 100%;
+    top: 0;
+    right: -16px;
+    z-index: 1;
+    background: #e33529;
+    transform-origin: bottom left;
+    -ms-transform: skew(15deg, 0deg);
+    -webkit-transform: skew(15deg, 0deg);
+    transform: skew(15deg, 0deg);
+}
+.name-container{
+    width: 100%;
+}
+.bike-img{
+    height: auto;
+    width: 200px;
+}
+
+#overlay-form, #overlay-edit-form {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+select{
+    border: 1px solid #dfdbdb;
+    margin-top: 10px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    width: 100%;
+}
+.swal-button--cancel, .swal-button--cancel:active{
+    background: #d7d7d7 !important;
+}
+.form-card{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 15px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    padding: 30px;
+}
+.form-card form{
+    width: 300px;
+}
+.close-btn{
+    display: inline;
+    float: right;
+    padding: 0 0 10px 10px;
+}
+.bike-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vw;
+    margin: 0 5vw 5vw 5vw;
+}
+.ad-dashboard{
+    background-color: #f1f1f1;
+}
+
+.bike-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    -webkit-box-shadow: 0px 2px 19px -7px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 19px -7px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 19px -7px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.delete-bike{
+    background: #ff0c8e !important;
+    width: auto;
+    padding: 8px 11px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    margin: auto;
+    height: auto;
+    margin-left: 10px;
+}
+.edit-bike{
+    background: #d3e3e3;
+    width: auto;
+    padding: 8px 11px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    margin: auto;
+    height: auto;
+    color: #676e6e;
+}
+.bike-buttons{
+    display: flex;
+    margin-top: 10px;
+}
+.bike-card h5{
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.name-container {
+  display: flex;
+  justify-content: center;
+  margin-left: -25px;
+}
+
+.name-tag {
+  width: 144px;
+}
+
+.confirmation-map {
+  width: 100vw;
+}
+.confirmation-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  text-align: center;
+}
+
+.confirmation-section > div {
+  padding: 1em;
+  width: 100%;
+}
+
+.confirmation-section img {
+  width: 100%;
+  max-width: 70px;
+}
+
+.confirmation-price > h3 {
+  background-color: dark grey;
+}
+
+.confirmation > .logo {
+  max-width: 100px;
+}
+
+.search-page > .logo {
+  width: 100px;
+}
+
+.vote-results {
+  margin-top: 30px;
+}
+
+.candidate-row {
+  flex-direction: column;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+  margin-left: -25px;
+}
+
+.name-tag {
+  width: 144px;
+}
+@media screen and (max-width: 1240px){
+    .candidate-row {
+        flex-direction: column;
+    }
+    .name-container {
+        display: flex;
+        justify-content: center;
+        margin-left: -25px;
+    }
+    .name-tag {
+        width: 144px;
+    }
+}
+ 
