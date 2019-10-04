@@ -1,0 +1,34 @@
+{
+    "data": {
+        "12345": {
+            "status": "inactive",
+            "imageurl": "images\/bike1.jpg",
+            "longitude": "41.40338",
+            "latitude": "2.17403"
+        },
+        "555": {
+            "status": "active",
+            "imageurl": "images\/bike1.jpg",
+            "longitude": "41.40338",
+            "latitude": "2.17403"
+        },
+        "maria": {
+            "status": "inactive",
+            "imageurl": "images\/bike1.jpg",
+            "longitude": "41.40338",
+            "latitude": "2.17403"
+        },
+        "11111": {
+            "status": "active",
+            "imageurl": "images\/bike1.jpg",
+            "longitude": "41.40338",
+            "latitude": "2.17403"
+        },
+        "ddfffsd": {
+            "status": "active",
+            "imageurl": "images\/bike1.jpg",
+            "longitude": "41.40338",
+            "latitude": "2.17403"
+        }
+    }
+}
