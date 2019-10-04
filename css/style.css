@@ -4,7 +4,7 @@
     font-family: 'Lato', sans-serif;
 }
 .login-page{
-    background-color: #0055a5;
+    background-color: #ffbc00;
 }
 body{
     /* background-image: url('../images/signup-transparent-bg.png'); */
@@ -28,7 +28,7 @@ nav h6{
 }
 nav a{
     text-decoration: none;
-    color: #0055a5;
+    color: #ffbc00;
     font-weight: 700;
     margin-left: 10px;
     font-family: 'Raleway', sans-serif;
@@ -39,7 +39,7 @@ h1{
     font-weight: 900;
     text-align: center;
     margin-bottom: 40px;
-    color: #0055a5;
+    color: #ffbc00;
 }
 h2{
     font-size: 23px;
@@ -51,12 +51,18 @@ h3{
     font-weight: 900;
     margin-left: 20px;
 }
-h6{
+h6, label{
     margin-block-start: 10px;
     margin-block-end: 5px;
     font-size: 12px;
     color: #CECECE;
     text-transform: uppercase;
+}
+label{
+    margin-bottom: 5px;
+}
+.form-card input[type=text]{
+    margin-top: 10px;
 }
 .form-container{
     width: 35vw;
@@ -89,8 +95,13 @@ input[type=text], input[type=password], button{
     margin-bottom: 10px;
     padding: 0 0 0 10px;
 }
-button{
-    background-color: #0055a5;
+input[type=submit]{
+    border: none;
+    height: 50px;
+}
+button, input[type=submit]{
+    background: rgb(255,12,142);
+    background: linear-gradient(90deg, rgba(255,12,142,1) 0%, rgb(255, 187, 0) 100%);
     font-size: 20px;
     color: white;
     font-weight: 700;
@@ -163,6 +174,104 @@ button{
 }
 .vote-results{
     margin-top: 30px;   
+}
+.bike-img{
+    height: auto;
+    width: 200px;
+}
+
+#overlay-form, #overlay-edit-form {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+select{
+    border: 1px solid #dfdbdb;
+    margin-top: 10px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    width: 100%;
+}
+.swal-button--cancel, .swal-button--cancel:active{
+    background: #d7d7d7 !important;
+}
+.form-card{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 15px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    padding: 30px;
+}
+.form-card form{
+    width: 300px;
+}
+.close-btn{
+    display: inline;
+    float: right;
+    padding: 0 0 10px 10px;
+}
+.bike-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vw;
+    margin: 0 5vw 5vw 5vw;
+}
+.ad-dashboard{
+    background-color: #f1f1f1;
+}
+
+.bike-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    -webkit-box-shadow: 0px 2px 19px -7px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 19px -7px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 19px -7px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.delete-bike{
+    background: #ff0c8e !important;
+    width: auto;
+    padding: 8px 11px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    margin: auto;
+    height: auto;
+    margin-left: 10px;
+}
+.edit-bike{
+    background: #d3e3e3;
+    width: auto;
+    padding: 8px 11px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    margin: auto;
+    height: auto;
+    color: #676e6e;
+}
+.bike-buttons{
+    display: flex;
+    margin-top: 10px;
+}
+.bike-card h5{
+    text-transform: uppercase;
+    margin-top: 0;
 }
 
 @media screen and (max-width: 1240px){

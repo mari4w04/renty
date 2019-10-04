@@ -129,6 +129,16 @@
                 "voteId": "5d7f408429f46",
                 "candidateName": "Michael Bennet"
             }
+        },
+        "1234567877": {
+            "firstName": "Maria",
+            "lastName": "Belautdinova",
+            "password": "$2y$10$kQmfJYTX4uUk\/xePZciJv.ZHCDZDOpghzcDjRI67zkpvhJP4l5U5K",
+            "hasVoted": true,
+            "vote": {
+                "voteId": "5d91dbf149c28",
+                "candidateName": "Michael Bennet"
+            }
         }
     }
 }
