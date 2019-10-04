@@ -49,8 +49,8 @@
                   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
                   </div>
+                  <a href='map.php'><button>Find bikes nearby</button></a>
 </div>
-<a href='map.php'><button>Find bikes nearby</button></a>
 <!-- end page -->
 <script>
 
