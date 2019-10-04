@@ -22,6 +22,7 @@
         <div><a href="map.php">Logout</a></div>
     </nav>
 <div class="main-container">
+    <img class="ride-start" src="images/ride-start.png" alt=""></div>
     <h1 class="padding-top-bottom-40">Have a safe ride!</h1>
     <h1 id="stopwatch"><time>00:00:00</time></h1>
     <button id="stop">End Ride</button>
@@ -67,7 +68,5 @@
 
 </script>
 
-<?php 
-    // $sLinkToScript = '<script src="js/payment.js"></script>';
-    require_once 'bottom.php';
-?>
+</body>
+</html>
