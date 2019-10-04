@@ -97,7 +97,7 @@ h1{
     animation-duration: 1.5s;
 }
 .search-page-container{
-    height: 23vh;
+    height: 27vh;
     padding-top: 10%;
 }
 .search-page-wrapper{
@@ -107,6 +107,13 @@ button, input[type=submit]{
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
     height: 60px;
+}
+.find-btn{
+    display: flex;
+    justify-content: center;
+}
+.find-btn i{
+    margin-right: 15px;
 }
 a{
     text-decoration: none;
