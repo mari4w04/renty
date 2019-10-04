@@ -29,27 +29,27 @@
                               <div class="mySlides fade">
                                   <img src="images/norden-ellen-da-n7-askegra-m-pink.png">
                                   <h1>Lady bike</h1>
-                                  <div class="text">100kr/hour</div>
+                                  <div class="text">10kr unlock + 2.50kr / min</div>
                               </div>
 
                               <div class="mySlides fade">
-                                  <img src="images/3731930550320.jpg">
+                                  <img src="images/funky-bike1.png">
                                   <h1>Kid bike</h1>
-                                  <div class="text">100kr/hour</div>
+                                  <div class="text">10kr unlock + 2.50kr / min</div>
                                 </div>
 
 
                               <div class="mySlides fade">
-                                  <img src="images/3121Li-1-1-2.jpg">
+                                  <img src="images/funky-bike2.png">
                                   <h1>Christiania bike</h1>
-                                  <div class="text">100kr/hour</div>
+                                  <div class="text">10kr unlock + 2.50kr / min</div>
                               </div>
 
                   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
                   </div>
-                  <a href='map.php'><button>Find bikes nearby</button></a>
+                  <a href='map.php'><button>Find nearby</button></a>
 </div>
 <!-- end page -->
 <script>

@@ -21,7 +21,7 @@
         <a href="map">Logout</a>
     </nav>
 
-    <h1>Unlock Bike</h1>
+    <h1>UNLOCK BIKE</h1>
     <div id="unlockSection" class="white-container">
 
         <div id="chooseSection">
@@ -32,12 +32,12 @@
         <div id="plateNumber">
             <h2>Enter code </h2>
             <input type="text" name="plateNumber" id="plateNumber">
-            <a href='ride-start.php'><button id="unlockBtn">Unlock</button></a>
+            <a href='ride-start.php'><button id="unlockBtn">UNLOCK</button></a>
         </div>
         
         <div id="qrCode">
            <!-- <div class="enabled-camera"> <img src="images/qr-camera.png" alt=""></div> -->
-            <h5>Enable camera</h5>
+            <h2>Enable camera</h2>
             <p>Renty will use your camera to scan the QR code</p>
             <button id="enableCamera">Enable camera access</div>
         </div>

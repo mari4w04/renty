@@ -22,17 +22,17 @@
         <a href="map"></a>
     </nav>
     <!-- <div><img class="logo" src="images/logo.png" alt=""></div> -->
-    <div class="container login">
-
-        <h1>Login</h1>
+    
+    <h1>Login</h1>
+        <div class="container login">
         
         <form id="frmLogin" method="POST">
             <input name="txtLoginEmail" type="text" placeholder="Your Email" >
             <input name="txtLoginPassword" type="password" placeholder="password">
             <button>Login</button>
+            <a class="form-link" href="signup">Signup</a>
         </form>
     </div>
-    <a href="signup">Signup</a>
 </div>
     
 

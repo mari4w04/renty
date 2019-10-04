@@ -63,10 +63,11 @@ nav a {
 }
 
 h1 {
+  padding-left: 5%;
   font-family: 'Work Sans', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
   /*     color: #ffbc00; */
   color: white;
@@ -84,6 +85,10 @@ h3 {
   font-size: 12px;
   font-weight: 900;
   margin-left: 20px;
+}
+
+h5 {
+  font-size: 1.2em;
 }
 
 h6,
@@ -122,7 +127,7 @@ input[type=submit] {
 
 button,
 input[type=submit] {
-  padding-left: 5%;
+  display: grid;
   border-style: none;
   background: #ff5b4f;
   height: 50px;
@@ -131,52 +136,13 @@ input[type=submit] {
   color: white;
   font-weight: 700;
   margin-bottom: 20px;
-  width: 100%;
+  width: 90%;
   padding: 0;
   border-radius: 10px;
   margin: 20px auto 20px auto;
   cursor: pointer;
 }
 
-.card {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  padding: 60px;
-}
-
-.line-separator {
-  background-color: #CECECE;
-  height: 25px;
-  width: 1px;
-  margin-left: 10px;
-}
-
-.candidate {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.candidate-row {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.candidate img {
-  height: auto;
-  width: 170px;
-}
-
-.vote-btn {
-  width: 80px;
-  text-transform: uppercase;
-  font-size: 15px;
-  height: 40px;
-}
 
 .name-tag {
   background-color: #e33529;
@@ -424,11 +390,6 @@ select {
   margin-top: 10px;
 }
 
-.bike-card h5 {
-  text-transform: uppercase;
-  margin-top: 0;
-}
-
 .name-container {
   display: flex;
   justify-content: center;
@@ -528,4 +489,32 @@ select {
 /* checkbox */
 input[type="checkbox"] {
   background-color: transparent !important;
+}
+
+/* login signup */
+.form-link {
+  text-decoration: none;
+  text-align: center;
+  display: grid;
+  color: #c9c9c9;
+}
+
+.white-container {
+  background-color: white;
+  border-radius: 30px 30px 0% 0%;
+  padding-top: 20%;
+  bottom: 0%;
+  height: 80vh;
+}
+
+#qrCode h5,
+p {
+  color: #ff5b4f;
+  text-align: center;
+}
+
+#qrCode p {
+  color: #4c4c4c;
+  text-align: center;
+  padding: 0% 20%;
 }
