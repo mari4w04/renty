@@ -12,7 +12,7 @@ require_once __DIR__.'/top.php';
         <a href="signup">Signup</a>
     </nav>
     <div class="container">
-        <h1>Sign up for voting</h1>
+        <h1>Sign up</h1>
         <form id="frmRegister">
             <input name="txtFirtstName" id="txtFirstName" type="text" placeholder="Your first name">
             <input name="txtLastName" id="txtLastName" type="text" placeholder="Your last name">
