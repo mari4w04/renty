@@ -143,6 +143,9 @@ button, input[type=submit]{
 a{
     text-decoration: none;
 }
+input[type="text"], input[type="password"]{
+    outline: none;
+}
 .signup-page-wrapper input[type="text"], input[type="password"]{
     margin-bottom: 30px;
 }
@@ -152,6 +155,157 @@ a{
 .signup-page-wrapper input[type="text"], input[type="password"]{
     height: 35px;
 }
+.payment-container{
+    padding: 10% 35px 0 35px;
+}
+.payment-p{
+    padding-left: 10%;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.payment-container i{
+    color: #c9c9c9;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.payment-container input[type="text"], input[type="password"]{
+    border: none;
+    margin: 0;
+    font-size: 12px;
+}
+#paymentCardNo{
+    width: 140px;
+}
+#paymentCardExpiryMonth, #paymentCardExpiryYear{
+    width: 30px;
+    padding: 5px;
+}
+.expiry-container{
+    color: #c9c9c9;
+    width: 66px;
+}
+.expiry-container span{
+    display: flex;
+    align-items: center;    
+}
+.payment-h1{
+    margin-bottom: 10px;
+}
+.card-expiry-cvv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card-number-box{
+    display: flex;
+}
+#paymentCvv{
+    width: 40px;
+}
+#paymentCardHolder{
+    border-style: none;
+    border-bottom: #c9c9c9 1px solid;
+    height: 30px;
+    padding: 0;
+}
+.red-h5{
+    text-align: center !important;
+}
+.rate-info, .insurance{
+color: #4c4c4c;
+font-family: 'Work Sans', sans-serif;
+text-align: center;
+text-transform: none;
+}
+.insurance{
+    font-weight: 500;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c9c9c9;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #c9c9c9;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #c9c9c9;
+  }
+
+  /* checkbox */
+.container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #f443364d;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container-checkbox:hover input~.checkmark {
+    background-color: transparent;
+    border: white 1px solid;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container-checkbox input:checked~.checkmark {
+    background-color: #f443363d;
+    border: #F44336 1px solid;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container-checkbox input:checked~.checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container-checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  /* end checkbox */
 @keyframes fade {
     from {
         opacity: .4
