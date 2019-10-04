@@ -20,12 +20,14 @@
         <a href="scan"><img src="images/back-white.png" alt=""></a>
     </nav>
 
+
     <div class="login-page-wrapper">
     <h1 class="payment-h1">Just ride</h1>
     <p class="payment-p">Just ride and pay at the end. <br/>
 The longer you ride the cheaper it gets.</p>
         
         <div class="white-container payment-container">
+
         <!-- <h2>Credit Card & Billing Information</h2> -->
         <form id="frmPayment" method="POST">
 
