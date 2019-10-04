@@ -1,46 +1,56 @@
-<?php
-
-require_once __DIR__.'/top.php'; 
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/white-theme.css">
+    <title>Renty</title>
+</head>
+<body>
 <div class="page">
-<div id='stars'></div>
-<div id='stars2'></div>
-<div id='stars3'></div>
-<nav>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <nav> 
         <img src="images/back-white.png" alt="">
         <img src="images/logo.png" alt="">
         <div>Logout</div>
     </nav>
 
 
-<h1 class="SearchTitle"> choose your type of bikes :</h1>
+          <h1 class="SearchTitle"> Choose your bike</h1>
 
-<div class="slideshow-container">
+                  <div class="slideshow-container">
 
-<div class="mySlides fade">
-    <img src="images/norden-ellen-da-n7-askegra-m-pink.png">
-    <h1>Lady bike</h1>
-    <div class="text">100kr/hour</div>
+                              <div class="mySlides fade">
+                                  <img src="images/norden-ellen-da-n7-askegra-m-pink.png">
+                                  <h1>Lady bike</h1>
+                                  <div class="text">100kr/hour</div>
+                              </div>
+
+                              <div class="mySlides fade">
+                                  <img src="images/3731930550320.jpg">
+                                  <h1>Kid bike</h1>
+                                  <div class="text">100kr/hour</div>
+                                </div>
+
+
+                              <div class="mySlides fade">
+                                  <img src="images/3121Li-1-1-2.jpg">
+                                  <h1>Christiania bike</h1>
+                                  <div class="text">100kr/hour</div>
+                              </div>
+
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                  </div>
 </div>
-
-<div class="mySlides fade">
-    <img src="images/3731930550320.jpg">
-    <h1>Kid bike</h1>
-    <div class="text">100kr/hour</div>
-  </div>
-
-
-<div class="mySlides fade">
-    <img src="images/3121Li-1-1-2.jpg">
-    <h1>Christiania bike</h1>
-    <div class="text">100kr/hour</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-
+<!-- end page -->
 <script>
 
 var slideIndex = 1;
@@ -68,5 +78,6 @@ function showSlides(n) {
 </script>
 
 
-<?php
-require_once __DIR__.'/bottom.php'; 
+
+</body>
+</html>
