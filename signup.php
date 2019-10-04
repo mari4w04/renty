@@ -17,10 +17,9 @@
 <div id='stars3'></div>
 <nav>
         <a href="scan"><img src="images/back-white.png" alt=""></a>
-        <a href="map"><img src="images/logo.png" alt=""></a>
         <a href="map"></a>
     </nav>
-   
+    <div class="signup-page-wrapper">
         <h1>Sign up</h1>
         <div class="container">
         <form id="frmRegister">
@@ -38,6 +37,7 @@
             <a class="form-link" href="login">Login</a>
         </form>
     </div>
+</div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
