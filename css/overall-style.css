@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
 
 body{
@@ -30,21 +30,30 @@ h1{
 
 .slideshow-container img {
     vertical-align: middle;
-    width: 80%;
-    padding: 35px;
+    width: 100%;
+    padding: 35px 35px 0 35px
 }
-
+.slider-arrow{
+    padding: 0 !important;
+    height: 25px;
+    width: auto !important;
+}
+.search-heading{
+    margin-bottom: 0;
+}
 .slideshow-container {
-    width: 100vw;
-    height: 50vh;
+    width: 80vw;
+    height: 37vh;
     position: relative;
+    margin: auto;
+    
 }
 
 .prev,
 .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -55,7 +64,10 @@ h1{
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-
+.mySlides h5{
+    text-align: center;
+    margin-top: 0;
+}
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -84,7 +96,21 @@ h1{
     animation-name: fade;
     animation-duration: 1.5s;
 }
-
+.search-page-container{
+    height: 23vh;
+    padding-top: 10%;
+}
+.search-page-wrapper{
+    margin-top: 30vw;
+}
+button, input[type=submit]{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+}
 @keyframes fade {
     from {
         opacity: .4
