@@ -20,18 +20,24 @@
         <a href="map"><img src="images/logo.png" alt=""></a>
         <a href="map"></a>
     </nav>
-    <div class="container">
+   
         <h1>Sign up</h1>
+        <div class="container">
         <form id="frmRegister">
-            <input name="txtFirtstName" id="txtFirstName" type="text" placeholder="Your first name">
-            <input name="txtLastName" id="txtLastName" type="text" placeholder="Your last name">
-            <input name="txtSignupEmail" id="txtSignupEmail" type="text" placeholder="Email *" value="">
-            <input name="password" id="password" type="password" placeholder="Password*" value="">
-            <input name="confirmPassword" id="confirmPassword" type="password" placeholder="Type password again*" value="">
+            <h6>First name</h6>
+            <input name="txtFirtstName" id="txtFirstName" type="text">
+            <h6>Last name</h6>
+            <input name="txtLastName" id="txtLastName" type="text">
+            <h6>Email</h6>
+            <input name="txtSignupEmail" id="txtSignupEmail" type="text" value="">
+            <h6>Password</h6>
+            <input name="password" id="password" type="password" value="">
+            <h6>Confirm Password</h6>
+            <input name="confirmPassword" id="confirmPassword" type="password" value="">
             <button class="frmButton">Sign up</button>
+            <a class="form-link" href="login">Login</a>
         </form>
     </div>
-    <a href="signup">Signup</a>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
