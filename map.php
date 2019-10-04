@@ -19,7 +19,7 @@
         <img src="images/norden-ellen-da-n7-askegra-m-pink.png">
     </div>
 
-    <a id="chooseBikeBtn" href="#"><button>Choose</button></a>
+    <a id="chooseBikeBtn" href="payment"><button>Choose</button></a>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
