@@ -46,13 +46,13 @@
 
   <div class="white-container search-page-container">
 
-    <a href='map.php'><button>Find bikes nearby</button></a>
+    <a href='map.php'><button class="find-btn"><i class="fas fa-search"></i> Find bikes nearby</button></a>
   </div>
 
 </div>
 
 
-
+<script src="https://kit.fontawesome.com/22eaa1461b.js" crossorigin="anonymous"></script>
 <!-- end page -->
 <script>
 
