@@ -19,7 +19,7 @@
 <nav>
         <img src="images/back-white.png" alt="">
         <img src="images/logo.png" alt="">
-        <div><a href="map.php">Logout</div>
+        <div><a href="map.php">Logout</a></div>
     </nav>
 <div class="main-container">
     <h1 class="padding-top-bottom-40">Have a safe ride!</h1>

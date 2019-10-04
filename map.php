@@ -17,6 +17,7 @@
         <p class="distance">197 M AWAY</p>
         <hr>
         <img src="images/norden-ellen-da-n7-askegra-m-pink.png">
+        <a href='login.php'><button>Choose</button></a>
     </div>
 
     <a id="chooseBikeBtn" href="payment"><button>Choose</button></a>
