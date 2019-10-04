@@ -16,9 +16,9 @@
     <div id='stars2'></div>
     <div id='stars3'></div>
     <nav> 
-        <img src="images/back-white.png" alt="">
+    <a href="payment"><img src="images/back-white.png" alt=""></a>
         <img src="images/logo.png" alt="">
-        <div>Logout</div>
+        <a href="map">Logout</a>
     </nav>
 
     <h1>UNLOCK BIKE</h1>

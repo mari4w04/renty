@@ -16,9 +16,9 @@
     <div id='stars2'></div>
     <div id='stars3'></div>
     <nav> 
-        <img src="images/back-white.png" alt="">
+    <a href="login"><img src="" alt=""></a>
         <img src="images/logo.png" alt="">
-        <div>Logout</div>
+        <div></div>
     </nav>
 
 

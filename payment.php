@@ -16,9 +16,9 @@
 <div id='stars2'></div>
 <div id='stars3'></div>
 <nav>
-        <img src="images/back-white.png" alt="">
+        <a href="scan"><img src="images/back-white.png" alt=""></a>
         <img src="images/logo.png" alt="">
-        <div>Logout</div>
+        <a href="map">Logout</a>
     </nav>
 
     <h1 class="padding-top-bottom-40">Payment</h1>
@@ -52,8 +52,5 @@
 <script src="js/validate.js"></script>
 
 
-<?php 
-    // $sLinkToScript = '<script src="js/payment.js"></script>';
-    
-    require_once 'bottom.php';
-?>
+</body>
+</html>
