@@ -25,12 +25,13 @@
 <!-- map -->
 <div class="confirmation-section">
 <!-- km ridden -->
-<div>
-<img src="images/pin.png" alt="">
-<h6>Distance</h6>
-<h4>1km</h4>
-</div>
+    <div>
+        <img src="images/pin.png" alt="">
+        <h6>Distance</h6>
+        <h4>1km</h4>
+    </div>
 <!-- time ride -->
+
 <div>
 <img src="images/stop-watch.png" alt="">
 <h6>Duration</h6>
@@ -43,9 +44,10 @@
 </div>
 <!-- total price -->
 <div class="confirmation-price">
+    <h6>total</h6>
 <h4>18kr</h4>
-<h6>christiania bike</h6>
 </div>
+
 </div>
 <a href='map.php'><button>New ride</button></a>
 

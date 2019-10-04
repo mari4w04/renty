@@ -35,7 +35,7 @@
         
         <div id="qrCode">
             <h5>Enable camera</h5>
-            <p>Renty will use your camera to scan the QR code</p>
+            <p>Renty wants to use your camera to scan the QR code</p>
             <a href="scan-camera"><button id="enableCamera">Enable camera access</div></a>
         </div>
 

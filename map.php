@@ -16,7 +16,7 @@
   <div class="page" id="mapPage">
   <nav> 
     <a href="login"><img src="" alt=""></a>
-    <a href="map"><img src="images/logo.png" alt=""></a>
+    
         <div></div>
     </nav>
 
