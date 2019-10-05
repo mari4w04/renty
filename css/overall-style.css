@@ -329,6 +329,11 @@ text-transform: none;
   .ad-dashboard input[type=submit]{
     width: auto;
     padding: 0 20px;
+    text-transform: none;
+    font-size: 17px;
+}
+#add-bike{
+    font-size: 17px;
   }
   .close-btn{
     color: #424242;

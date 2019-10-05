@@ -7,7 +7,7 @@
             "latitude": "2.17403"
         },
         "555": {
-            "status": "inactive",
+            "status": "inrepair",
             "imageurl": "images\/bike1.jpg",
             "longitude": "41.40338",
             "latitude": "2.17403"
@@ -19,6 +19,12 @@
             "latitude": "2.17403"
         },
         "33333": {
+            "status": "active",
+            "imageurl": "images\/bike1.jpg",
+            "longitude": "41.40338",
+            "latitude": "2.17403"
+        },
+        "12345w": {
             "status": "active",
             "imageurl": "images\/bike1.jpg",
             "longitude": "41.40338",
