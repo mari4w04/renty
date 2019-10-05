@@ -23,7 +23,7 @@
     <h1 class="padding-top-bottom-40">Have a safe ride!</h1>
     <h2 id="stopwatch"><time>00:00:00</time></h2>
     <div class="white-container">
-        <button id="stop">End Ride</button>
+        <button id="stop">End ride</button>
     </div>
 
     
