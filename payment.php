@@ -17,11 +17,11 @@
 <div id='stars2'></div>
 <div id='stars3'></div>
     <nav>
-        <a href="scan"><img src="images/back-white.png" alt=""></a>
+        <a href="login"><img src="images/back-white.png" alt=""></a>
     </nav>
 
 
-    <div class="login-page-wrapper">
+    <div class="login-page-wrapper payment-wrapper">
     <h1 class="payment-h1">Just ride</h1>
     <p class="payment-p">Just ride and pay at the end. <br/>
 The longer you ride the cheaper it gets.</p>
@@ -56,7 +56,7 @@ The longer you ride the cheaper it gets.</p>
                 <h5 class="red-h5">Rates</h5>
                 <p class="rate-info">10 kr. unlock + 2.50 kr./min<span class="align-right" id="chosenCarPrice"></span></p>
                 <p class="insurance">
-                <label class="container-checkbox insurance" >I would like to have insurance for 25 kr.
+                <label class="container-checkbox insurance" > <span class='checkbox-label-text'>I want insurance for 25 kr.</span>
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>  
                 </p>

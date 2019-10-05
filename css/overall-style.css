@@ -233,10 +233,13 @@ text-transform: none;
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: #c9c9c9;
   }
-
+.bike-card h5{
+    color: #424242;
+    margin-top: 0;
+    font-size: 15px;
+}
   /* checkbox */
 .container-checkbox {
-    display: block;
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
@@ -246,6 +249,48 @@ text-transform: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    height: 25px;
+    display: flex;
+  }
+  .checkbox-label-text{
+      margin-top:5px;
+  }
+  .insurance{
+    display: flex;
+    justify-content: center;
+  }
+  .fa-map-marker-alt, .fa-hourglass-half{
+      color: #cecece;
+      font-size: 25px;
+  }
+  .confirmation-page p{
+      color: #424242;
+      font-family: 'Work Sans', sans-serif;
+      margin-top: 7px;
+  }
+  .time-box h6{
+    font-family: 'Work Sans', sans-serif;
+    color: #424242;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  #password, #confirmPassword{
+    margin-bottom: 30px !important;
+    height: 40px !important;
+    border-style: none;
+    border-bottom: #c9c9c9 1px solid;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0 0 0 10px;
+  }
+  #mapPage{
+    overflow: hidden;
+  }
+  .time-box p{
+    margin-bottom: 8px;
+  }
+  .content-confirmation{
+    height: 90vh;
   }
   
   /* Hide the browser's default checkbox */
@@ -256,7 +301,51 @@ text-transform: none;
     height: 0;
     width: 0;
   }
-  
+  #add-bike{
+      display: flex;
+      width: auto;
+      padding: 20px;
+      align-items: center;
+  }
+
+  #add-bike i{
+      margin-right: 10px;
+
+  }
+  .ad-dashboard h1{
+      margin: 0 0 40px 0;
+      padding: 0;
+      color: #424242;
+  }
+  .ad-dashboard input[type=submit]:focus{
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin: 20px auto 20px auto;
+    font-weight: 500;
+    height: 60px;
+  }
+  .ad-dashboard input[type=submit]{
+    width: auto;
+    padding: 0 20px;
+  }
+  .close-btn{
+    color: #424242;
+  }
+  .login-page-wrapper input[type="password"], .login-page-wrapper input[type="text"]{
+    border-bottom: #c9c9c9 1px solid;
+    text-transform: none;
+    padding: 0;
+    color: #424242;
+    font-size: 13px;
+  }
+  .payment-wrapper input[type="password"], .payment-wrapper input[type="text"]{
+      border: none;
+  }
+  .card-number-box i{
+      margin-right: 10px;
+  }
   /* Create a custom checkbox */
   
   .checkmark {

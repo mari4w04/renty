@@ -18,7 +18,7 @@
 <div id='stars2'></div>
 <div id='stars3'></div>
 <nav>
-        <a href="scan"><img src="images/back-white.png" alt=""></a>
+        <a href="login"><img src="images/back-white.png" alt=""></a>
         <a href="map"></a>
     </nav>
     
@@ -37,7 +37,6 @@
                 <h6>Confirm Password</h6>
                 <input name="confirmPassword" id="confirmPassword" type="password" value="">
                 <button class="frmButton">Sign up</button>
-                <a class="form-link" href="login">Login</a>
             </form>
         </div>
     </div>
