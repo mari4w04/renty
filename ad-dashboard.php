@@ -24,7 +24,11 @@ $jInnerData = $jData->data;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/white-theme.css">
+    <link rel="stylesheet" href="css/overall-style.css">
 </head>
 <body class="ad-dashboard">
 
@@ -73,7 +77,7 @@ $jInnerData = $jData->data;
 
 
     <div>
-        <button id="add-bike">Add bike</button>
+        <button id="add-bike"><i class="fas fa-plus"></i>Add bike</button>
     </div>
     <div class="bike-container">
 

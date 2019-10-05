@@ -7,12 +7,6 @@
             "latitude": "2.17403"
         },
         "555": {
-            "status": "active",
-            "imageurl": "images\/bike1.jpg",
-            "longitude": "41.40338",
-            "latitude": "2.17403"
-        },
-        "maria": {
             "status": "inactive",
             "imageurl": "images\/bike1.jpg",
             "longitude": "41.40338",
@@ -24,7 +18,7 @@
             "longitude": "41.40338",
             "latitude": "2.17403"
         },
-        "ddfffsd": {
+        "33333": {
             "status": "active",
             "imageurl": "images\/bike1.jpg",
             "longitude": "41.40338",

@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/white-theme.css">
+    <link rel="stylesheet" href="css/overall-style.css">
     <title>Renty</title>
 </head>
-<body>
+<body class="confirmation-page">
 <div class="page">
 <div id='stars'></div>
 <div id='stars2'></div>
 <div id='stars3'></div>
 <nav>
-<a href="#"><img src="images/back-white.png" alt=""></a>
+<!-- <a href="#"><img src="images/back-white.png" alt=""></a> -->
     </nav>
 
     <h1>Receipt</h1>
@@ -26,26 +27,26 @@
 <div class="confirmation-section">
 <!-- km ridden -->
     <div>
-        <img src="images/pin.png" alt="">
+        <i class="fas fa-map-marker-alt"></i>
         <h6>Distance</h6>
-        <h4>1km</h4>
+        <p>1 km</p>
     </div>
 <!-- time ride -->
 
 <div>
-<img src="images/stop-watch.png" alt="">
+<i class="fas fa-hourglass-half"></i>
 <h6>Duration</h6>
-<h4>3min</h4>
+<p>3 min</p>
 </div>
 <!-- date, start time finish time -->
-<div>
-<h4>Tuesday, October 1, 2019</h4>
-<h6>5.50pm-5.53</h6>
+<div class="time-box">
+<p>Tuesday, October 1, 2019</p>
+<h6>17:50 - 17:53</h6>
 </div>
 <!-- total price -->
 <div class="confirmation-price">
     <h6>total</h6>
-<h4>18kr</h4>
+<p>18kr</p>
 </div>
 
 </div>
@@ -56,6 +57,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/vote.js"></script>
+    <script src="https://kit.fontawesome.com/22eaa1461b.js" crossorigin="anonymous"></script>
 
     </body>
 </html>
